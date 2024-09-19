@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on 泽港—GANG</title>
+        <link>https://hzgbbq.github.io/ZGblog/post/</link>
+        <description>Recent content in Posts on 泽港—GANG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>泽港-GANG</copyright>
+        <lastBuildDate>Thu, 19 Sep 2024 10:44:16 +0800</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Newtest</title>
+        <link>https://hzgbbq.github.io/ZGblog/p/newtest/</link>
+        <pubDate>Thu, 19 Sep 2024 10:44:16 +0800</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/p/newtest/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

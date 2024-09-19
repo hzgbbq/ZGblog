@@ -2,25 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ZGblog/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/</loc>
+    <lastmod>2024-09-19T10:44:16+08:00</lastmod>
+  </url><url>
+    <loc>https://hzgbbq.github.io/ZGblog/p/newtest/</loc>
+    <lastmod>2024-09-19T10:44:16+08:00</lastmod>
+  </url><url>
+    <loc>https://hzgbbq.github.io/ZGblog/post/</loc>
+    <lastmod>2024-09-19T10:44:16+08:00</lastmod>
+  </url><url>
+    <loc>https://hzgbbq.github.io/ZGblog/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/page/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://hzgbbq.github.io/ZGblog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/categories/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/links/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/tags/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/categories/test/</loc>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/categories/test/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>http://localhost:1313/ZGblog/%E5%85%B3%E4%BA%8E/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ZGblog/search/</loc>
+    <loc>https://hzgbbq.github.io/ZGblog/search/</loc>
   </url>
 </urlset>

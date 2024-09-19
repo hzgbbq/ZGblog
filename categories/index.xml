@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 泽港—GANG</title>
-        <link>http://localhost:1313/ZGblog/categories/</link>
+        <link>https://hzgbbq.github.io/ZGblog/categories/</link>
         <description>Recent content in Categories on 泽港—GANG</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>泽港-GANG</copyright><atom:link href="http://localhost:1313/ZGblog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>泽港-GANG</copyright><atom:link href="https://hzgbbq.github.io/ZGblog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Test</title>
-        <link>http://localhost:1313/ZGblog/categories/test/</link>
+        <link>https://hzgbbq.github.io/ZGblog/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/ZGblog/categories/test/</guid>
-        <description>&lt;img src="http://localhost:1313/ZGblog/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://hzgbbq.github.io/ZGblog/categories/test/</guid>
+        <description>&lt;img src="https://hzgbbq.github.io/ZGblog/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>
