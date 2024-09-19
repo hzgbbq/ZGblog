@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Test on 泽港—GANG</title>
+        <link>http://localhost:1313/ZGblog/categories/test/</link>
+        <description>Recent content in Test on 泽港—GANG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>泽港-GANG</copyright><atom:link href="http://localhost:1313/ZGblog/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
