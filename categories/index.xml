@@ -6,7 +6,32 @@
         <description>Recent content in Categories on 泽港—GANG</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>泽港-GANG</copyright><atom:link href="https://hzgbbq.github.io/ZGblog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>泽港-GANG</copyright>
+        <lastBuildDate>Mon, 23 Sep 2024 19:04:01 +0800</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>后门攻击</title>
+        <link>https://hzgbbq.github.io/ZGblog/categories/%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/</link>
+        <pubDate>Mon, 23 Sep 2024 19:04:01 +0800</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/categories/%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Syntax</title>
+        <link>https://hzgbbq.github.io/ZGblog/categories/syntax/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/categories/syntax/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Themes</title>
+        <link>https://hzgbbq.github.io/ZGblog/categories/themes/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/categories/themes/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
         <link>https://hzgbbq.github.io/ZGblog/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
