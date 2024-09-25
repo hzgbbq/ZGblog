@@ -147,18 +147,180 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;实验结果与分析&#34;&gt;实验结果与分析
-&lt;/h2&gt;&lt;p&gt;论文的实验设计为&amp;hellip;，使用的评价指标为&amp;hellip;。结果显示&amp;hellip;。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/image-url&#34;
+&lt;h2 id=&#34;实验设计与结果&#34;&gt;实验设计与结果
+&lt;/h2&gt;&lt;h3 id=&#34;一数据集&#34;&gt;一、数据集
+&lt;/h3&gt;&lt;p&gt;**数据来源：**数据集有美国国家医学图书馆提供，并且所有的X光片均来自美国卫生与公共服务部和中国深圳第三人民医院。&lt;/p&gt;
+&lt;p&gt;**数据内容：**包含结核病表现得正常和异常胸部X光片以及相应得放射科医生读数。&lt;/p&gt;
+&lt;p&gt;**数据集分类：**90%数据集用作训练数据集，10%得数据集用作验证数据集。&lt;/p&gt;
+&lt;h3 id=&#34;二实验设计图&#34;&gt;二、实验设计图
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2.png&#34;
+	width=&#34;1307&#34;
+	height=&#34;765&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu1084884326160821466.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu18039832672089918762.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;实验设计表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8.png&#34;
+	width=&#34;549&#34;
+	height=&#34;255&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu4231900841002222132.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu5572012726066660360.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;DeepEDN网络结构表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;215&#34;
+		data-flex-basis=&#34;516px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三实验评估&#34;&gt;三、实验评估
+&lt;/h3&gt;&lt;h4 id=&#34;评估指标&#34;&gt;评估指标
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;结构相似指数（SSIM）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SSIM（Structural Similarity Index Metric）是一种衡量两幅图像相似度的指标。它是通过将图像分解为不同的结构分量，来比较图像在亮度、对比度和结构上的差异。&lt;/p&gt;
+&lt;p&gt;公式如下：&lt;/p&gt;
+&lt;img src=&#34;Pic/SSIM.png&#34; style=&#34;zoom:60%;&#34; /&gt;
+&lt;p&gt;**亮度比较l(x,y)：**用于衡量两幅图像亮度的差异&lt;/p&gt;
+&lt;p&gt;**对比度比较c(x,y)：**用于衡量两幅图像对比度的差异&lt;/p&gt;
+&lt;p&gt;**结构比较s(x,y)：**用于衡量两幅图像结构（如边缘、纹理）的差异&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;峰值信噪比（PSNR）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;PSNR是一种基于均方误差（MSE, Mean Squared Error）的指标，描述了图像重建或压缩后的质量与原始图像的差距。它通过对原始图像与处理后的图像进行逐像素比较，计算出两者的差异，然后转化为信噪比的形式。&lt;/p&gt;
+&lt;p&gt;公式如下：&lt;/p&gt;
+&lt;img src=&#34;Pic/PSNR.png&#34; style=&#34;zoom:60%;&#34; /&gt;
+&lt;p&gt;&lt;strong&gt;攻击成功率（ASR）与干净数据准确率（CDA）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ASR（攻击成功率，Attack Success Rate）是一种衡量指标，用来评估带有后门触发的样本是否能够成功使模型输出错误的结果。在医疗影像加密和解密网络的攻击中，ASR用于验证攻击能否成功破坏图像的加密或解密过程。&lt;/p&gt;
+&lt;p&gt;CDA（Clean Data Accuracy，干净数据准确性）表示在所有未嵌入后门触发器的干净数据样本中，能够被正确加密和解密的图像比例。它是一种衡量网络在处理正常图像时加密和解密的准确性的方法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;攻击成功的评估标准&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;对于加密网络&lt;/strong&gt;，当SSIM大于0.7且PSNR大于20时，被视为加密失败。&lt;strong&gt;对于解密网络&lt;/strong&gt;，当SSIM小于0.4且PSNR小于10时，解密被视为失败，从而确定攻击成功 .&lt;/p&gt;
+&lt;h4 id=&#34;实验对比图&#34;&gt;实验对比图
+&lt;/h4&gt;&lt;p&gt;实验效果图如下：左边为攻击加密网络，右边为攻击解密网络&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE.png&#34;
+	width=&#34;1141&#34;
+	height=&#34;446&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu12342985927777899549.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu15002874975933117611.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;实验效果图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;255&#34;
+		data-flex-basis=&#34;613px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;两种攻击的数据结果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
+	width=&#34;741&#34;
+	height=&#34;160&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu11210952610613553471.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu6305947056559327735.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;攻击加密网络数据&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;463&#34;
+		data-flex-basis=&#34;1111px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
+	width=&#34;754&#34;
+	height=&#34;159&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu7475497346202013158.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu850458922700618228.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;攻击解密网络数据&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;474&#34;
+		data-flex-basis=&#34;1138px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;后门攻击方法评估&#34;&gt;后门攻击方法评估
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%e4%b8%8d%e5%90%8c%e6%94%bb%e5%87%bb%e6%96%b9%e6%b3%95%e6%95%88%e6%9e%9c%e5%9b%be.png&#34;
 	
 	
 	
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;实验结果图&#34;
+		alt=&#34;不同后门触发器嵌入效果&#34;
 	
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%e4%b8%8d%e5%90%8c%e6%94%bb%e5%87%bb%e6%96%b9%e6%b3%95%e6%95%88%e6%9e%9c%e6%95%b0%e6%8d%ae%e5%9b%be.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;上述方法的数据对比&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;攻击加密网络的评估&#34;&gt;攻击加密网络的评估
+&lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;后门加密网络参数α&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%ce%b1%e5%af%b9%e6%94%bb%e5%87%bb%e5%8a%a0%e5%af%86%e7%bd%91%e7%bb%9c%e7%9a%84%e5%bd%b1%e5%93%8d%e6%95%b0%e6%8d%ae.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;α参数对攻击的影响&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;​	在训练后门加密网络的过程中，&lt;strong&gt;α 是后门鉴别器在整个后门加密网络中出现的概率&lt;/strong&gt;。上表可看到，随着α 的增大，SSIM和PSNR的值保持增大的趋势。这表明，当α 取较大值时，后门加密网络能够取得更好的性能，并且当α设 置为0.5时，后门加密网络能够取得最好的攻击性能。这也意 味着后门鉴别器应该考虑与起源鉴别器相同的概率。&lt;/p&gt;
+&lt;p&gt;​	另外，除了通过设置参数α来训练后门鉴别器和原始鉴别器之外，另一种方法是通过&lt;strong&gt;交叉训练&lt;/strong&gt;的方式来训练后门和原始鉴别器。这意味着训练过程将采用本次普通鉴别器来训练后门加密网络，并且下次采用后门判别器，以替代方式进行训练。通过另一种方式训练后门加密网络，对带有触发器标记的图像进行加密，平均SSIM和PSNR分别为&lt;strong&gt;0.74和22.09&lt;/strong&gt;，均低于使用参数α为0.5训练后门加密网络。可以说，与其他训练方法相 比，所提出的训练方法（使用α为0.5来训练后门鉴别器）可以获得更好的攻击性能。&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;验证加入了后门的密文图像是否还能保持原有的加密安全性能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过直方图分析和熵分析两种方式进行分析&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%e7%9b%b4%e6%96%b9%e5%9b%be%e4%b8%8e%e7%86%b5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;上部为直方图，下部为熵值&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;直方图：&lt;/p&gt;
+&lt;p&gt;原始X射线图像共有57600（240 * 240）个像素，像素分布更集中在值0和值255上。而密文图 像的像素分布是统一的范围为0到255，这对于防止统计分 析破解更加有效。&lt;/p&gt;
+&lt;p&gt;图像信息熵：&lt;/p&gt;
+&lt;p&gt;图像信息熵是图像灰度分布的统计特征。理想情况下，加密图像应与随机噪声相似，灰度分布均匀，理想值应为8。&lt;/p&gt;
+&lt;h4 id=&#34;攻击解密网络的评估&#34;&gt;攻击解密网络的评估
+&lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;信道替换比例η对解密网络的分析&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%e5%ad%90%e7%bd%91%e6%9b%bf%e6%8d%a2%e6%95%88%e6%9e%9c.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;信道替换&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;本实验采用&lt;strong&gt;第一层通道数&lt;/strong&gt;作为子网替换的参数，并采用SSIM值作为评价指标来表征实验结 果。第一层共有32个通道，可用于替换的子网通道数设置 为1～8。从图9可以看出，随着待替换通道的增量，激活状 态下的SSIM值，代表后门解密网络解密出的带有后门触发 的密文图像，逐渐减小。这意味着攻击解密网络取得了巨 大成功（密文图像无法被正确解密）。非活动状态下的SSIM值，代表正确解密的无后门触发的密文图像，略有下降，但解密性能基本保持不变。当替换通道数达到4个时， 后门解密网络可以平衡活动状态和非活动状态之间的解密 性能。更换超过4层后，主动攻击的SSIM值仍在逐渐下降，这意味着攻击解密网络可以取得更好的攻击性能。然 而，非主动攻击的解密性能也大幅下降，这表明通过替换4 层以上，正确的解密过程仍然被破坏。因此，如果采用 12.5%（共4层，共32层）层数作为第一层的通道替换比例，则后门解密网络在兼顾攻击和解密的情况下可以达到 最佳性能。&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;关于解密网络的剪枝影响分析&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/Pic%5c%e5%89%aa%e6%9e%9d%e6%95%88%e6%9e%9c%e5%af%b9%e6%af%94.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;剪枝效果对比&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;图a是密文图像；图b是采用模型剪枝策略的结果；图c是采用随机选择策略的结果；图d和图e是驶入带有触发器的密文图像破坏解密性能的情况，其中图d是对应模型剪枝策略，图e对应随机选择策略&lt;/p&gt;
+&lt;p&gt;上表中给出的是两种策略的量化结果&lt;/p&gt;
 &lt;h2 id=&#34;结论与启示&#34;&gt;结论与启示
 &lt;/h2&gt;&lt;p&gt;论文得出的结论是&amp;hellip;。从中我学到了&amp;hellip;，但同时存在以下不足&amp;hellip;。&lt;/p&gt;
 &lt;h2 id=&#34;个人评论与反思&#34;&gt;个人评论与反思
