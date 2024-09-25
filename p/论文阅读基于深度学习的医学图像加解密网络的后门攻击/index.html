@@ -268,6 +268,8 @@
         <li><a href="#方法论">方法论</a>
           <ol>
             <li><a href="#a威胁模型">A.威胁模型</a></li>
+            <li><a href="#d-attack-encryption-network-攻击加密网络"><strong>D. Attack Encryption Network (攻击加密网络)</strong></a></li>
+            <li><a href="#e-attack-decryption-network-攻击解密网络"><strong>E. Attack Decryption Network (攻击解密网络)</strong></a></li>
           </ol>
         </li>
       </ol>
@@ -460,6 +462,32 @@
 	
 	
 ></p>
+<h4 id="d-attack-encryption-network-攻击加密网络"><strong>D. Attack Encryption Network (攻击加密网络)</strong>
+</h4><ol>
+<li><strong>加密网络攻击简介</strong>
+<ul>
+<li>在攻击加密网络时，攻击者通过随机训练原判别器和后门判别器，使加密网络输出的图像接近原始图像，而不是生成密文图像。后门判别器的训练使带有后门触发器的输入破坏了加密过程。</li>
+</ul>
+</li>
+<li><strong>网络训练过程</strong>
+<ul>
+<li>网络使用原始判别器、解密网络和后门判别器进行联合训练。对于不含触发器的输入，使用原判别器生成加密图像；对于含触发器的输入，通过后门判别器破坏加密过程。</li>
+</ul>
+</li>
+</ol>
+<h4 id="e-attack-decryption-network-攻击解密网络"><strong>E. Attack Decryption Network (攻击解密网络)</strong>
+</h4><ol>
+<li><strong>攻击方案概述</strong>
+<ul>
+<li>在攻击解密网络中，攻击者通过子网络替换部分解密网络的参数，使得当输入带有后门触发器的图像时，解密网络的性能被破坏，输出不可识别的图像。</li>
+</ul>
+</li>
+<li><strong>通道替换与剪枝技术</strong>
+<ul>
+<li>为了减少参数替换的影响，攻击者使用通道剪枝技术，选择要替换的通道，以最小化对解密网络正常性能的影响。实验结果表明，使用剪枝策略能有效提高攻击性能，并减少对正常解密的干扰。</li>
+</ul>
+</li>
+</ol>
 <h2 id="实验结果与分析">实验结果与分析
 </h2><p>论文的实验设计为&hellip;，使用的评价指标为&hellip;。结果显示&hellip;。</p>
 <p><img src="/ZGblog/image-url"
