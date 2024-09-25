@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>泽港-GANG</copyright>
-        <lastBuildDate>Mon, 23 Sep 2024 19:04:01 +0800</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/categories/%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/categories/%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>论文阅读：基于深度学习的医学图像加解密网络的后门攻击</title>
         <link>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/</link>
-        <pubDate>Mon, 23 Sep 2024 19:04:01 +0800</pubDate>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/</guid>
-        <description>&lt;img src="https://hzgbbq.github.io/ZGblog/title.jpg" alt="Featured image of post 论文阅读：基于深度学习的医学图像加解密网络的后门攻击" /&gt;&lt;h2 id=&#34;论文信息&#34;&gt;论文信息
+        <description>&lt;img src="https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/title.jpg" alt="Featured image of post 论文阅读：基于深度学习的医学图像加解密网络的后门攻击" /&gt;&lt;h2 id=&#34;论文信息&#34;&gt;论文信息
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;标题：Backdoor Attack on Deep Learning-Based Medical Image Encryption and Decryption Network&lt;/li&gt;
 &lt;li&gt;发表年份：05 October 2023&lt;/li&gt;
