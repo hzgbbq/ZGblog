@@ -7,7 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>泽港-GANG</copyright>
-        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>论文阅读：检测伪造 BGP 劫持的系统</title>
+        <link>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%A3%80%E6%B5%8B%E4%BC%AA%E9%80%A0-bgp-%E5%8A%AB%E6%8C%81%E7%9A%84%E7%B3%BB%E7%BB%9F/</link>
+        <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%A3%80%E6%B5%8B%E4%BC%AA%E9%80%A0-bgp-%E5%8A%AB%E6%8C%81%E7%9A%84%E7%B3%BB%E7%BB%9F/</guid>
+        <description>&lt;p&gt;相关知识点补充
+1、BGPKIT的作用及使用
+2、CAIDA的作用及使用
+3、IXP路由服务器
+4、BGP中的对等信息
+5、Gao-Rexford模型
+6、ASRank引文[18]
+7、监督二元分类器
+8、SEAL框架
+9、GNN模型&lt;/p&gt;
+&lt;p&gt;疑惑点：
+6、design中四个场景
+7、design中的四个特征&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>论文阅读：基于深度学习的医学图像加解密网络的后门攻击</title>
         <link>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/</link>
         <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
