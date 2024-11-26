@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>网络安全 on 泽港—GANG</title>
+        <link>https://hzgbbq.github.io/ZGblog/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
+        <description>Recent content in 网络安全 on 泽港—GANG</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>泽港-GANG</copyright>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>论文阅读：Relation-CNN_Enhancing_website_fingerprinting_attack_with_relation</title>
+        <link>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/</link>
+        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/</guid>
+        <description>&lt;img src="https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/title.png" alt="Featured image of post 论文阅读：Relation-CNN_Enhancing_website_fingerprinting_attack_with_relation" /&gt;&lt;h2 id=&#34;1豆包ai脑图&#34;&gt;1豆包AI脑图
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/exported_image.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;exported_image&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2论文背景介绍&#34;&gt;2、论文背景介绍
+&lt;/h2&gt;&lt;h3 id=&#34;1隐私增强技术pets&#34;&gt;1、隐私增强技术（pets）
+&lt;/h3&gt;&lt;p&gt;如Tor, Shadowsocks等软件，在保护隐私的同时也给网络罪犯提供了网络防御的场所。所以发展网络指纹识别以便突破该保护。这使&lt;strong&gt;网络指纹攻击&lt;/strong&gt;成为监测网络非法活动的重要手段&lt;/p&gt;
+&lt;h3 id=&#34;2网络指纹wf攻击概念和现状&#34;&gt;2、网络指纹(WF)攻击概念和现状
+&lt;/h3&gt;&lt;p&gt;概念：WF 攻击可通过流量分析识别用户访问的网页，其关键在于&lt;strong&gt;模型和特征&lt;/strong&gt;的选择&lt;/p&gt;
+&lt;p&gt;现状：现有 DL 攻击在性能提升上存在&lt;strong&gt;两个瓶颈&lt;/strong&gt;。一是&lt;strong&gt;过度依赖深度神经网络（DNN）的自动特征提取能力&lt;/strong&gt;，以往工作常直接将数据包方向或时间戳信息作为模型输入，未利用流量关系特征，导致有用判别信息丢失；二是&lt;strong&gt;现有 DL 攻击的 DNN 模型直接照搬计算机视觉（CV）中的模型&lt;/strong&gt;，未针对减少信息损失进行优化，限制了攻击性能的提升&lt;/p&gt;
+&lt;h3 id=&#34;3本文做法&#34;&gt;3、本文做法
+&lt;/h3&gt;&lt;p&gt;一方面，提出关系特征，通过设计算法构建交通实例图（TIG），从数据包方向序列中手动提取关系特征&lt;/p&gt;
+&lt;p&gt;另一方面，构建 NFS - CNN 框架，对 ResNet18 进行三项优化（入口块、下采样块和残差块）以减少信息损失，并设计特征增强和特征注意力块，引入特征注意力机制衡量不同通道数据对准确率的贡献&lt;/p&gt;
+&lt;h2 id=&#34;3威胁模型&#34;&gt;3、威胁模型
+&lt;/h2&gt;&lt;p&gt;该论文中使用的典型威胁模型，如图 1 所示，包括五个实体：用户（受害者）、攻击者（敌手）、Tor 网络、网页和加密流量&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1.png&#34;
+	width=&#34;571&#34;
+	height=&#34;295&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu5940960998609241851.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu5707547576647282864.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;在这个场景中，攻击者是本地的、被动的网络层敌手。&lt;strong&gt;“本地” 意味着攻击者位于用户和防护节点之间；“被动” 表示攻击者不能延迟、丢弃、修改或解密流量，而只能记录流量&lt;/strong&gt;。这两个特点显示了网站指纹攻击易于实施，同时也增强了其潜在威胁&lt;/p&gt;
+&lt;p&gt;具体来说，攻击者需要收集一系列的流量样本，每个样本由访问一个网页时产生的数据包序列及其时间戳组成，以训练一个预定义的模型。如果流量样本来自对攻击者感兴趣的被监控网页的访问，则称为&lt;strong&gt;监控样本&lt;/strong&gt;；如果网页是未被监控的，则称该样本为&lt;strong&gt;未监控样本&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;论文中还评估了&lt;strong&gt;网站指纹分类器&lt;/strong&gt;在两种设置下的情况：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;封闭世界设置：所有收集的样本都属于被监控的网站。&lt;/li&gt;
+&lt;li&gt;开放世界设置：同时包含监控样本和未监控样本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4相关工作&#34;&gt;4、相关工作
+&lt;/h2&gt;&lt;h3 id=&#34;1wf攻击&#34;&gt;1、WF攻击
+&lt;/h3&gt;&lt;p&gt;从训练数据的规模分，WF攻击可分为低数据和典型两种。前者是基于有限的训练数据集，本文关注后者，有足够多的训练数据。&lt;/p&gt;
+&lt;p&gt;WF攻击应该优化&lt;strong&gt;分类器的模型&lt;/strong&gt;或&lt;strong&gt;提取更高质量的特征。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;三种特征提取方式&lt;/p&gt;
+&lt;p&gt;a、手动特征提取(传统机器学习)&lt;/p&gt;
+&lt;p&gt;在早期 HTTP 1.0 时代，手动提取资源长度等特征可有效区分流量。但随着 HTTP 1.1 出现，研究者开始寻求更细粒度特征，如数据包长度、CUMUL 等。典型攻击如 Wa-KNN 手动提取大量特征，在特定数据集上取得较高准确率；Ha-KFP 利用随机森林提取特征并选择重要特征作为输入&lt;/p&gt;
+&lt;p&gt;b、自动特征提取（深度学习）&lt;/p&gt;
+&lt;p&gt;先前文献提出多种基于深度神经网络（DNN）的攻击，如使用卷积神经网络（CNN）、堆叠去噪自编码器（SDAE）、长短期记忆网络（LSTM）等，仅将数据包的时间戳、方向或方向时间戳作为输入，特征由 DNN 自动提取，但不同攻击因网络能力不同准确率有所差异&lt;/p&gt;
+&lt;p&gt;c、&lt;strong&gt;混合特征提取攻击&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自动特征提取攻击受限于 DNN 和使用的特征，手动特征提取攻击依赖专家知识，因此本文提出 &lt;strong&gt;Relation&lt;/strong&gt;-CNN 这种混合特征提取攻击，同时指出 Var-CNN 也是一种混合特征提取攻击，但与 Relation-CNN 设计不同&lt;/p&gt;
+&lt;h2 id=&#34;5从加密流量中提取关系特征&#34;&gt;5、从加密流量中提取关系特征
+&lt;/h2&gt;&lt;h3 id=&#34;1为什么需要额外提取关系特征的原因&#34;&gt;1、为什么需要额外提取关系特征的原因：
+&lt;/h3&gt;&lt;p&gt;如图fig2&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2.png&#34;
+	width=&#34;777&#34;
+	height=&#34;351&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu2813943012835397061.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu12288564781936051442.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;221&#34;
+		data-flex-basis=&#34;531px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;绿色的A和橙色的T是同一个训练样本，橙色T由于网络波动第二和第三包的顺序掉换了位置。&lt;/p&gt;
+&lt;p&gt;出现了与蓝色的卷积核卷积的输出值不同，这就导致了无法判断A和T是否为同一类，导致判别信息的丢失。&lt;/p&gt;
+&lt;h3 id=&#34;2形式化关系特征的定义&#34;&gt;&lt;strong&gt;2、形式化关系特征的定义：&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;假设：&lt;/p&gt;
+&lt;p&gt;包序列S&amp;lt;p1,p2,&amp;hellip;pn&amp;gt;是访问网站的用户生成的&lt;/p&gt;
+&lt;p&gt;攻击者从pi中提取数据包的方向di（i= 1，2，&amp;hellip;&amp;hellip;,n）&lt;/p&gt;
+&lt;p&gt;如果di = 1,则表示pi是用户向服务器发送的包&lt;/p&gt;
+&lt;p&gt;如果di = -1，则表示pi是服务器发送给用户的包&lt;/p&gt;
+&lt;p&gt;因此，攻击者就能得到方向向量F&amp;lt;d1,d2,&amp;hellip;dn&amp;gt;&lt;/p&gt;
+&lt;p&gt;要得到关系特征&lt;/p&gt;
+&lt;p&gt;攻击者需要将&lt;strong&gt;相同方向&lt;/strong&gt;的&lt;strong&gt;连续&lt;/strong&gt;分组组成一个个&lt;strong&gt;突发块&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从而得到一个&lt;strong&gt;突发序列&lt;/strong&gt;&amp;lt;B1,B2,&amp;hellip;Bk&amp;gt;,Bk可表示为&amp;lt;di,&amp;hellip;,dj&amp;gt;(1&amp;lt;= i,j,k &amp;lt;=n)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关系特征&lt;/strong&gt;表示为&amp;lt;r00,r01,&amp;hellip;,rij,&amp;hellip;,rnn&amp;gt;&lt;em&gt;,&lt;/em&gt; (1 ≤ &lt;em&gt;𝑖, 𝑗&lt;/em&gt; ≤ &lt;em&gt;𝑛&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;rij表示pi和pj之间的关系&lt;/p&gt;
+&lt;p&gt;当i = j 时，rij = 1。&lt;/p&gt;
+&lt;p&gt;当 i ≠ j 时，a、pi 和 pj &lt;strong&gt;相邻&lt;/strong&gt;且在&lt;strong&gt;同一个突发块&lt;/strong&gt;时；b、pi 和 pj&lt;strong&gt;不在同一个突发块&lt;/strong&gt;，但位于突发&lt;strong&gt;块头或块尾&lt;/strong&gt;时， rij = 1&lt;/p&gt;
+&lt;p&gt;其他情况，rij = 0。&lt;/p&gt;
+&lt;h3 id=&#34;3流量提取的3个步骤&#34;&gt;3、流量提取的3个步骤
+&lt;/h3&gt;&lt;p&gt;1、&lt;strong&gt;构建流量实例图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;图为&lt;strong&gt;无向无权图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从fig3变到fig4；fig4中&lt;strong&gt;黑线&lt;/strong&gt;表示突发中的数据包内部链接；&lt;strong&gt;红线&lt;/strong&gt;表示突发间的第一个包互相连以及最后一个包互相连；绿线则数据包的自连接&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3.png&#34;
+	width=&#34;757&#34;
+	height=&#34;198&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu1485318370279433016.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu15461154681659580828.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig3&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;382&#34;
+		data-flex-basis=&#34;917px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;生成邻接矩阵&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;fig4中有相连的节点，则被认为它们之间存在某种关系，则对应表值为1，反之则值为0.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4.png&#34;
+	width=&#34;540&#34;
+	height=&#34;406&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu11537846196686310287.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu15117198678543604207.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig4&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;3、&lt;strong&gt;构建关系向量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为了将关系特征输入到WF攻击模型中，需要将相邻矩阵转换为&lt;strong&gt;行一阶&lt;/strong&gt;向量。如图fig5&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5.png&#34;
+	width=&#34;1223&#34;
+	height=&#34;435&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu17161345235073449798.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu2178656677299009445.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig5&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;281&#34;
+		data-flex-basis=&#34;674px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如果输入向量的要求长度&lt;strong&gt;小于&lt;/strong&gt;矩阵中总值的数量，则丢弃其余值&lt;/p&gt;
+&lt;p&gt;4、&lt;strong&gt;关系特征的优势&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如图fig6,纠正能力强&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6.png&#34;
+	width=&#34;763&#34;
+	height=&#34;408&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu17640730503361684065.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu1503529561037187103.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig6&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;6nfs-cnn&#34;&gt;6、NFS-CNN
+&lt;/h2&gt;&lt;h3 id=&#34;1概述&#34;&gt;1、概述：
+&lt;/h3&gt;&lt;p&gt;NFS-CNN定义了四个块：NResNet18；feature-enhancing；feature-attention；classification；&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFS-CNN可处理两种类型的向量&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第一种：被用于输入到NFS-CNN的特征提取器来自动学习新概念；内容包括方向、时间戳、关系向量&lt;/p&gt;
+&lt;p&gt;第二种：统计向量，不需要进一步的特征学习&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四个块的作用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NResNet18:从第一种向量中学习高维特征的自动特征提取器&lt;/p&gt;
+&lt;p&gt;feature-enhancing：可用于第二类向量的数据增强&lt;/p&gt;
+&lt;p&gt;feature-attention：重新定义来自不同通道的数据对结果的贡献&lt;/p&gt;
+&lt;p&gt;classification：对FA(feature-attention)的输出进行处理，得到预测结果&lt;/p&gt;
+&lt;p&gt;四个块的关系，如fig7所示，NResNet18和feature-enhancing分别对两种向量进行处理，再输出到feature-attention处理，最后输出到classification处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7.png&#34;
+	width=&#34;1166&#34;
+	height=&#34;420&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu3855186957887639274.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu18234237934442933883.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig7&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;277&#34;
+		data-flex-basis=&#34;666px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2nresnet18&#34;&gt;2、NResNet18：
+&lt;/h3&gt;&lt;p&gt;NResNet18是作者对传统CV中的ResNet18进行优化修改后得出来得层&lt;/p&gt;
+&lt;p&gt;ResNet18得结构图fig8&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8.png&#34;
+	width=&#34;718&#34;
+	height=&#34;1320&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu5514098585309022906.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu6450709901414493825.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fig8&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;54&#34;
+		data-flex-basis=&#34;130px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;优化点一优化入口块&#34;&gt;优化点一：优化入口块
+&lt;/h4&gt;&lt;p&gt;优化关键点：入口块的卷积层核大小为1 x 7（即入七出一），造成输出损失可能有点多。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;输出计算一般原理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设输入向量大小为L，卷积核大小为k，填充大小为p，步长为s。&lt;/li&gt;
+&lt;li&gt;首先，考虑卷积核在输入向量上滑动的过程。卷积核每次滑动的步长为s，从输入向量的起始位置开始，直到不能再滑动为止。&lt;/li&gt;
+&lt;li&gt;当卷积核在输入向量上滑动时，对于每个位置，卷积核与输入向量的对应部分进行逐元素相乘并求和，得到一个输出值。&lt;/li&gt;
+&lt;li&gt;计算输出大小的关键在于确定卷积核可以在输入向量上滑动的次数。在考虑填充的情况下，输入向量的实际可处理长度变为L+2p（在两端添加填充）。&lt;/li&gt;
+&lt;li&gt;那么，卷积核可以滑动的次数可以通过以下公式计算：n = (L+2p - k)/s + 1。这个公式的含义是，先计算在考虑填充后的输入向量长度上，卷积核能够完整覆盖的次数(L+2p - k)/s，然后再加上起始位置的一次，得到总的滑动次数，也就是输出的大小。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;优化点二优化下采样块&#34;&gt;优化点二：优化下采样块
+&lt;/h4&gt;&lt;p&gt;优化措施：采用在downsamping 层之前多加一个 max - pooling 层并调整参数&lt;/p&gt;
+&lt;p&gt;优化原理：&lt;/p&gt;
+&lt;h5 id=&#34;1max---pooling-层的特性与作用&#34;&gt;1、&lt;strong&gt;max - pooling 层的特性与作用&lt;/strong&gt;
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;数据降维与特征提取&lt;/strong&gt;：其主要作用是对输入数据进行降维处理。它通过在一个局部区域（例如论文中设置的核大小为 1×3 的区域）内选取最大值作为输出，能够有效地减少数据量，同时保留数据中的显著特征&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;滑动窗口机制与信息保留&lt;/strong&gt;：max - pooling 层的滑动窗口机制（步长为 2，填充大小为 1）在优化过程中起到了关键作用。滑动窗口以步长 2 在输入向量上移动，每次覆盖一个 1×3 的区域并选取最大值。这种方式使得输入向量中的每个元素都有机会被考虑到，并且由于填充大小为 1，在边界处也能较好地处理数据，避免了边缘信息的过度丢失。&lt;/p&gt;
+&lt;h4 id=&#34;优化点三优化残缺块&#34;&gt;优化点三：优化残缺块
+&lt;/h4&gt;&lt;p&gt;优化措施：引入分组卷积（grouped convolution）技术，在保持或提升准确性的同时降低复杂度&lt;/p&gt;
+&lt;h5 id=&#34;分组卷积原理引入&#34;&gt;&lt;strong&gt;分组卷积原理引入&lt;/strong&gt;
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;分组概念阐述&lt;/strong&gt;：核心思想是将输入通道划分为若干个组（在本研究中，超参数，即将输入通道分为两组）&lt;/p&gt;
+&lt;h5 id=&#34;优势分析&#34;&gt;&lt;strong&gt;优势分析&lt;/strong&gt;
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;降低计算复杂度&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;在标准卷积中，计算量与输入通道数、输出通道数以及卷积核大小等因素相关（计算复杂度大致为）O(C * Cout * k^2)。而在分组卷积中，由于每个组内的计算相对独立，计算复杂度变为O(C/G * Cout * k^2).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;残差块中的应用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、&lt;strong&gt;替换卷积操作&lt;/strong&gt;：在 ResNet18 的每个残差块中，对第二个卷积进行替换，采用上述分组卷积技术。具体而言，将原本的卷积层替换为分组卷积层，使得输入通道在分组后分别进行卷积计算，然后将结果进行拼接（concatenate），形成新的输出特征。&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;保持残差块结构完整性&lt;/strong&gt;：在进行分组卷积替换时，需要确保残差块结构的其他部分与之兼容，以保证整个网络的正常运行。这包括对输入和输出的维度进行适当调整，确保在经过分组卷积操作后，残差块的输入和输出能够与网络中的其他层正确连接，维持数据在网络中的顺畅流动。例如，需要保证分组卷积后的输出通道数与后续层的输入通道数匹配，以及在进行跳跃连接（shortcut connection）时，输入和输出的特征图大小和通道数相同。&lt;/p&gt;
+&lt;h3 id=&#34;3the-feature-enhancing-block&#34;&gt;3、The feature-enhancing block：
+&lt;/h3&gt;&lt;p&gt;作用：处理统计向量，使该层的输出形状与NResNet18一致。&lt;/p&gt;
+&lt;p&gt;内容：分为四层，分别为：a convolutional layer；a global average pooling layer； a batch normalization layer；a relu layer。&lt;/p&gt;
+&lt;p&gt;a global average pooling layer为下一个块的SE机制做了Squeeze 操作（全局平均池化）操作。&lt;/p&gt;
+&lt;h3 id=&#34;4the-feature-attention-block&#34;&gt;4、The feature-attention block
+&lt;/h3&gt;&lt;p&gt;主要用于动态调整不同通道特征对分类结果的贡献，从而提高网络对流量数据的分类准确性&lt;/p&gt;
+&lt;p&gt;具体做法：&lt;strong&gt;引入 Squeeze - Excitation（SE）机制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、&lt;strong&gt;Squeeze 操作（全局平均池化）&lt;/strong&gt;：在 SE 机制中，首先通过全局平均池化对输入向量的每个通道进行操作，将每个通道的特征图转换为一个&lt;strong&gt;单一的数值&lt;/strong&gt;，这个数值可以看作是该通道特征在整个输入数据上的全局描述符，能够表达&lt;strong&gt;整个通道数据的整体信息&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例如&lt;/strong&gt;，对于一个形状为(batchsize  x C x H x W)（在处理二维图像数据时，H和W分别表示高度和宽度；在处理一维流量数据时，可将其视为(batchsize  x C x 1 x 1）的输入张量，全局平均池化会在H x W（或1 X 1）的维度上进行平均计算，得到一个形状为batchsize x C的输出张量，每个元素代表对应通道的全局信息。&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;Excitation 操作（自适应重校准）&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;在得到每个通道的全局描述符后，通过一个瓶颈神经网络（包含两个全连接层，中间使用 ReLU 激活函数，周围是非线性操作）来实现 excitation 操作。这个瓶颈神经网络的作用是对通道间的依赖关系进行充分建模，根据输入数据的特征动态地为每个通道生成一个权重系数。&lt;/p&gt;
+&lt;h3 id=&#34;5the-classification-block&#34;&gt;5、The classification block
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;进行最终分类决策&lt;/strong&gt;：分类模块的核心作用是利用输入的特征数据进行分类计算，以确定每个测试样本属于相应类别的概率。它通过使用两个全连接层来实现这一功能。&lt;strong&gt;第一个全连接层&lt;/strong&gt;对输入的高维特征进行映射和转换，将其压缩到一个相对较低维的空间，从而提取出更具代表性的特征信息。然后，&lt;strong&gt;第二个全连接层&lt;/strong&gt;根据第一个全连接层的输出，计算每个样本属于各个类别的概率分布。在这个过程中，全连接层的参数通过训练过程进行学习和优化，使得网络能够根据输入特征准确地预测样本的类别。例如，在识别不同网站的流量时，分类模块会根据输入特征判断该流量样本最有可能属于哪个网站类别，从而实现对网站指纹的准确识别。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;输入：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;来自特征注意力模块（FA）的输出&lt;/strong&gt;：经过特征注意力模块处理后的特征数据是分类模块的主要输入。特征注意力模块通过动态调整不同通道特征的贡献，已经对输入数据进行了有效的特征表示优化。这些经过重新校准的特征数据包含了丰富的信息，能够更好地反映输入流量样本的特征模式，为分类模块提供了高质量的输入，有助于提高分类的准确性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;输出：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;预测向量&lt;/strong&gt;：分类模块的输出是一个&lt;strong&gt;预测向量&lt;/strong&gt;，其形状为batchsize x numclasses，其中&lt;strong&gt;batchsize&lt;/strong&gt;表示一次处理的样本数量，&lt;strong&gt;numclasses&lt;/strong&gt;表示数据集中网站类别的总数。预测向量中的每个元素代表相应样本属于某个类别的概率。例如，如果数据集中有 100 个不同的网站类别，那么预测向量中的每个元素就是一个样本属于这 100 个类别中某一个类别的概率值。&lt;/p&gt;
+&lt;h2 id=&#34;7实验评估&#34;&gt;7、实验评估
+&lt;/h2&gt;&lt;h2 id=&#34;问题汇总&#34;&gt;问题汇总
+&lt;/h2&gt;&lt;p&gt;1、本文中做实验隐私增强技术的环境是怎样的？&lt;/p&gt;
+&lt;p&gt;2、本文中的流量分析和提取主要提取了什么?&lt;/p&gt;
+&lt;p&gt;3、本文中的关系特征是如何提取的？&lt;/p&gt;
+&lt;p&gt;4、传统CNN与NFS-CNN、Relation-CNN与Var-CNN的不同点和相同点？&lt;/p&gt;
+&lt;p&gt;5、在注意力块中的Excitation 操作具体如何实现的？看不懂！！！特别使5.4.2部分&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
