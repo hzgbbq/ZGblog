@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>泽港-GANG</copyright>
-        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hzgbbq.github.io/ZGblog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>论文阅读：Relation-CNN_Enhancing_website_fingerprinting_attack_with_relation</title>
         <link>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/</link>
-        <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
         
         <guid>https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/</guid>
         <description>&lt;img src="https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/title.png" alt="Featured image of post 论文阅读：Relation-CNN_Enhancing_website_fingerprinting_attack_with_relation" /&gt;&lt;h2 id=&#34;1豆包ai脑图&#34;&gt;1豆包AI脑图
@@ -221,8 +221,36 @@
 &lt;li&gt;计算输出大小的关键在于确定卷积核可以在输入向量上滑动的次数。在考虑填充的情况下，输入向量的实际可处理长度变为L+2p（在两端添加填充）。&lt;/li&gt;
 &lt;li&gt;那么，卷积核可以滑动的次数可以通过以下公式计算：n = (L+2p - k)/s + 1。这个公式的含义是，先计算在考虑填充后的输入向量长度上，卷积核能够完整覆盖的次数(L+2p - k)/s，然后再加上起始位置的一次，得到总的滑动次数，也就是输出的大小。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9.png&#34;
+	width=&#34;728&#34;
+	height=&#34;251&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu8379557499902274869.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu2540307002943460067.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;优化入口块实例图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;290&#34;
+		data-flex-basis=&#34;696px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h4 id=&#34;优化点二优化下采样块&#34;&gt;优化点二：优化下采样块
 &lt;/h4&gt;&lt;p&gt;优化措施：采用在downsamping 层之前多加一个 max - pooling 层并调整参数&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10.png&#34;
+	width=&#34;777&#34;
+	height=&#34;182&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu18340547955960221047.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu14724755902020920486.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;优化下采样块实例图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;426&#34;
+		data-flex-basis=&#34;1024px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;优化原理：&lt;/p&gt;
 &lt;h5 id=&#34;1max---pooling-层的特性与作用&#34;&gt;1、&lt;strong&gt;max - pooling 层的特性与作用&lt;/strong&gt;
 &lt;/h5&gt;&lt;p&gt;&lt;strong&gt;数据降维与特征提取&lt;/strong&gt;：其主要作用是对输入数据进行降维处理。它通过在一个局部区域（例如论文中设置的核大小为 1×3 的区域）内选取最大值作为输出，能够有效地减少数据量，同时保留数据中的显著特征&lt;/p&gt;
@@ -231,6 +259,20 @@
 &lt;/h4&gt;&lt;p&gt;优化措施：引入分组卷积（grouped convolution）技术，在保持或提升准确性的同时降低复杂度&lt;/p&gt;
 &lt;h5 id=&#34;分组卷积原理引入&#34;&gt;&lt;strong&gt;分组卷积原理引入&lt;/strong&gt;
 &lt;/h5&gt;&lt;p&gt;&lt;strong&gt;分组概念阐述&lt;/strong&gt;：核心思想是将输入通道划分为若干个组（在本研究中，超参数，即将输入通道分为两组）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11.png&#34;
+	width=&#34;643&#34;
+	height=&#34;571&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu18063166816113825670.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu12219838324117035901.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;分组卷积示例图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;270px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h5 id=&#34;优势分析&#34;&gt;&lt;strong&gt;优势分析&lt;/strong&gt;
 &lt;/h5&gt;&lt;p&gt;&lt;strong&gt;降低计算复杂度&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;在标准卷积中，计算量与输入通道数、输出通道数以及卷积核大小等因素相关（计算复杂度大致为）O(C * Cout * k^2)。而在分组卷积中，由于每个组内的计算相对独立，计算复杂度变为O(C/G * Cout * k^2).&lt;/p&gt;
@@ -241,11 +283,26 @@
 &lt;/h3&gt;&lt;p&gt;作用：处理统计向量，使该层的输出形状与NResNet18一致。&lt;/p&gt;
 &lt;p&gt;内容：分为四层，分别为：a convolutional layer；a global average pooling layer； a batch normalization layer；a relu layer。&lt;/p&gt;
 &lt;p&gt;a global average pooling layer为下一个块的SE机制做了Squeeze 操作（全局平均池化）操作。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12.png&#34;
+	width=&#34;557&#34;
+	height=&#34;482&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu2503211859119430687.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu10879580496876988358.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;功能增强块结构图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;277px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h3 id=&#34;4the-feature-attention-block&#34;&gt;4、The feature-attention block
 &lt;/h3&gt;&lt;p&gt;主要用于动态调整不同通道特征对分类结果的贡献，从而提高网络对流量数据的分类准确性&lt;/p&gt;
 &lt;p&gt;具体做法：&lt;strong&gt;引入 Squeeze - Excitation（SE）机制&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;1、&lt;strong&gt;Squeeze 操作（全局平均池化）&lt;/strong&gt;：在 SE 机制中，首先通过全局平均池化对输入向量的每个通道进行操作，将每个通道的特征图转换为一个&lt;strong&gt;单一的数值&lt;/strong&gt;，这个数值可以看作是该通道特征在整个输入数据上的全局描述符，能够表达&lt;strong&gt;整个通道数据的整体信息&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;例如&lt;/strong&gt;，对于一个形状为(batchsize  x C x H x W)（在处理二维图像数据时，H和W分别表示高度和宽度；在处理一维流量数据时，可将其视为(batchsize  x C x 1 x 1）的输入张量，全局平均池化会在H x W（或1 X 1）的维度上进行平均计算，得到一个形状为batchsize x C的输出张量，每个元素代表对应通道的全局信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;（该操作实际是在feature-enhancing block的a global average pooling layer中完成）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;2、&lt;strong&gt;Excitation 操作（自适应重校准）&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;在得到每个通道的全局描述符后，通过一个瓶颈神经网络（包含两个全连接层，中间使用 ReLU 激活函数，周围是非线性操作）来实现 excitation 操作。这个瓶颈神经网络的作用是对通道间的依赖关系进行充分建模，根据输入数据的特征动态地为每个通道生成一个权重系数。&lt;/p&gt;
 &lt;h3 id=&#34;5the-classification-block&#34;&gt;5、The classification block
@@ -255,13 +312,277 @@
 &lt;p&gt;&lt;strong&gt;来自特征注意力模块（FA）的输出&lt;/strong&gt;：经过特征注意力模块处理后的特征数据是分类模块的主要输入。特征注意力模块通过动态调整不同通道特征的贡献，已经对输入数据进行了有效的特征表示优化。这些经过重新校准的特征数据包含了丰富的信息，能够更好地反映输入流量样本的特征模式，为分类模块提供了高质量的输入，有助于提高分类的准确性。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;输出：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;预测向量&lt;/strong&gt;：分类模块的输出是一个&lt;strong&gt;预测向量&lt;/strong&gt;，其形状为batchsize x numclasses，其中&lt;strong&gt;batchsize&lt;/strong&gt;表示一次处理的样本数量，&lt;strong&gt;numclasses&lt;/strong&gt;表示数据集中网站类别的总数。预测向量中的每个元素代表相应样本属于某个类别的概率。例如，如果数据集中有 100 个不同的网站类别，那么预测向量中的每个元素就是一个样本属于这 100 个类别中某一个类别的概率值。&lt;/p&gt;
-&lt;h2 id=&#34;7实验评估&#34;&gt;7、实验评估
-&lt;/h2&gt;&lt;h2 id=&#34;问题汇总&#34;&gt;问题汇总
-&lt;/h2&gt;&lt;p&gt;1、本文中做实验隐私增强技术的环境是怎样的？&lt;/p&gt;
+&lt;h2 id=&#34;7relation-cnn&#34;&gt;7、Relation-CNN
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15.png&#34;
+	width=&#34;767&#34;
+	height=&#34;612&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu18278851457556217986.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu2971605434782844518.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Relation-CNN的概述图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如图所示，分为两个阶段：训练阶段和测试阶段&lt;/p&gt;
+&lt;p&gt;1、训练阶段&lt;/p&gt;
+&lt;p&gt;第一步：程序从每个训练样本中获取4个向量&amp;mdash;&amp;mdash;方向、时间戳、关系和统计向量，其中前三个向量输入到NResNet18层处理；统计向量输入到feature-enhancing层进行处理。&lt;/p&gt;
+&lt;p&gt;第二步：根据NFS-CNN的输出计算交叉熵损失值，并基于NFS-CNN的优化策略更新参数，直到损失值收敛&lt;/p&gt;
+&lt;p&gt;第三步：将收敛点处的模型参数辅助到测试阶段，然后进行冻结。&lt;/p&gt;
+&lt;p&gt;2、测试阶段&lt;/p&gt;
+&lt;p&gt;在测试阶段，CNN的参数将被冻结，不在进行更新变化。与训练阶段一样要对测试样本进行处理获得需要的四个向量进行输入。&lt;/p&gt;
+&lt;p&gt;根据每个测试样本对应的输出向量，测试程序可以直接预测其标签。&lt;/p&gt;
+&lt;p&gt;文中还提到了relation-cnn是一种新的半自动WF攻击，它的手动部分主要体现在特征提取的部分（尤其是关系特征的提取）；它的自动化主要体现在它模型训练和测试的计算过程是依赖于自动化的神经网络计算。&lt;/p&gt;
+&lt;p&gt;训练参数的优化策略：Adam 优化器&lt;/p&gt;
+&lt;p&gt;Adam 优化器结合了动量优化策略和自适应优化策略，其优点包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对学习率不敏感，可以傻瓜式学习，省去了人工调参的麻烦，不需要手动调整超参数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;选择 Adam 优化器而不用其他策略的原因可能是它在许多情况下都能取得较好的效果，能够自动调整学习率，适应不同的参数更新需求，从而帮助模型更有效地收敛。&lt;/p&gt;
+&lt;h2 id=&#34;8实验评估&#34;&gt;8、实验评估
+&lt;/h2&gt;&lt;h3 id=&#34;1实验设置&#34;&gt;1、实验设置
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据集：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;使用九个数据集，涵盖未防御和防御场景，如 Wang - CW、Wang - OW、Sirinam - CW1000、Sirinam - OW、WTF - PAD、W - T (Sim)、Overdorf - Onion 等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2.png&#34;
+	width=&#34;882&#34;
+	height=&#34;346&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu9845434369357429874.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu15637512383577137306.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;数据集表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;254&#34;
+		data-flex-basis=&#34;611px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;模型选择与实现：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择 Wa - KNN、Ha - KFP、Ri - SDAE、Si - DF、Ra - TikTok 等作为基线攻击模型，涵盖深度学习和传统机器学习技术，具有代表性。&lt;/li&gt;
+&lt;li&gt;使用 PyTorch 实现 Relation - CNN，在 NVIDIA RTX 6000 工作站上运行，采用 Adam 优化器，遵循官方实现步骤处理数据，包括提取方向、时间戳、关系和统计向量，并进行预处理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;指标：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;封闭世界评估使用&lt;strong&gt;准确率&lt;/strong&gt;衡量攻击性能；开放世界评估使用精确率 - 召回率（P - R）曲线、真正率（TPR）、假正率（FPR）、贝叶斯检测率（BDR）等指标。&lt;/p&gt;
+&lt;h3 id=&#34;2关系特征评估&#34;&gt;2、关系特征评估
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;确定关系特征数量&lt;/strong&gt;：在 Sirinam - CW1000 数据集上测试不同数量关系特征对 Relation - CNN 准确率的影响，发现准确率随特征数量增加而上升，最终确定使用 5000 个关系特征。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16.png&#34;
+	width=&#34;802&#34;
+	height=&#34;492&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu7881136581628961093.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu8545935701196428886.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;确定关系特征数量实验表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;391px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;比较评估&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进行两项比较评估，将关系特征分别与方向向量、时间戳向量组合输入分类器（Si - DF 和 NFS - CNN），结果表明关系特征能提高分类器准确率，且在样本量较少的数据集上提升更明显，证明关系特征提供了新的判别信息，且难以被 DNN 自动学习。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17.png&#34;
+	width=&#34;1561&#34;
+	height=&#34;462&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu8435012825564604064.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu10755733468314482155.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;使用关系特征效果对比图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;337&#34;
+		data-flex-basis=&#34;810px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;信息泄漏分析&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;利用 &lt;strong&gt;WeFDE 工具&lt;/strong&gt;进行信息泄漏分析，发现关系特征泄露大量信息且具有冗余性，但提供了独特信息，其独特信息未被现有特征包含，这解释了添加关系特征可提高模型准确率的原因。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18.png&#34;
+	width=&#34;736&#34;
+	height=&#34;601&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu1420561614844161724.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu16804593148831506176.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;信息泄露对比图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;293px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;从图中可以看到的是大多数关系特征的信息泄漏都大于1位，该比率大于方向和时间戳特征。特别是对于时间戳特性，大多数特性泄漏的信息少于1位。此外，还可以观察到一个有趣的现象，**即连续关系特征，没有泄露信息。**从此现象可以得到关系特征具有冗余性。猜测若能解决该冗余性有可能使关系特征泄露出更多信息。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19.png&#34;
+	width=&#34;512&#34;
+	height=&#34;386&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu11195173585268532065.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu15328152222948872220.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;特征聚类分析图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;318px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;如上图：关系特征泄露的信息是与其他特征泄露的不同的，并且除了冗余的（深灰色）信息，关系特征只属于一个集群。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;3relation---cnn-评估&#34;&gt;3、Relation - CNN 评估
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NFS - CNN 变体比较&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比较不同输入向量的 NFS - CNN 变体准确率，结果表明添加更多向量输入通常能提高准确率，Relation - CNN 始终表现最佳，凸显其有效性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3.png&#34;
+	width=&#34;751&#34;
+	height=&#34;293&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu15755755196803203219.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu9289803245886703551.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NFS-CNN变种表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;256&#34;
+		data-flex-basis=&#34;615px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20.png&#34;
+	width=&#34;937&#34;
+	height=&#34;482&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu7488820030663437790.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu4228913723046837460.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;变种CNN准确率对比表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;466px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;封闭世界评估（无防御数据集）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在无防御数据集上，Relation - CNN 准确率高于其他基线攻击，在样本量较少的数据集上优势更明显，如在 Sirinam - CW100 上比其他基线攻击高出一定比例，表明其数据高效且鲁棒。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4.png&#34;
+	width=&#34;757&#34;
+	height=&#34;218&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu13992356108907038791.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu1440845715198493758.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;无防御数据集的封闭世界评估&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;347&#34;
+		data-flex-basis=&#34;833px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;封闭世界评估（有防御数据集）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在有防御数据集（WTF - PAD 和 W - T (Sim)）上，Relation - CNN 在两种防御下均取得最佳准确率，超过最佳基线攻击一定比例，说明这两种防御对 Relation - CNN 无效。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5.png&#34;
+	width=&#34;762&#34;
+	height=&#34;175&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu15554464412533984524.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu7671392090692059898.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;防御数据集的封闭世界评估&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;435&#34;
+		data-flex-basis=&#34;1045px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;开放世界评估&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;第一个实验：训练样本和测试样本固定，通过 P - R 曲线比较不同攻击在开放世界场景下的性能，Relation - CNN 召回率和精确率性能最佳。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22.png&#34;
+	width=&#34;551&#34;
+	height=&#34;335&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu2613830692216577254.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu11981801849057464706.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;P - R 曲线比较图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;394px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二个实验：固定&lt;strong&gt;监测的&lt;/strong&gt;训练样本和测试样本，调整未监控训练样本数量的实验中，Relation - CNN 在 TPR、FPR 和 BDR 指标上始终表现最好，进一步证明其鲁棒性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23.png&#34;
+	width=&#34;1151&#34;
+	height=&#34;416&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu14834844315954033250.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu9221660083192761233.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第二个实验对比图&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;276&#34;
+		data-flex-basis=&#34;664px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;4与-var---cnn-比较&#34;&gt;4、与 Var - CNN 比较
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Relation - CNN 与 Var - CNN 对比&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;Relation - CNN 在网络骨干优化（对 ResNet18 进行优化，减少信息损失）、融合机制（引入特征注意力机制，自动调整特征贡献）和使用特征（包含独特关系特征）三个方面优于 Var - CNN。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;比较实验&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;在无防御和有防御数据集上进行比较实验，Relation - CNN 在所有设置下均优于 Var - CNN，尤其在样本量较少的数据集和洋葱数据集上优势更明显，在有防御数据集上也表现出色，充分证明其优越性。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6.png&#34;
+	width=&#34;730&#34;
+	height=&#34;423&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu17889426026145356315.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu16939037205023428166.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;准确率对比表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;414px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;问题汇总&#34;&gt;问题汇总
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;1、本文中做实验隐私增强技术的环境是怎样的？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;2、本文中的流量分析和提取主要提取了什么?&lt;/p&gt;
 &lt;p&gt;3、本文中的关系特征是如何提取的？&lt;/p&gt;
 &lt;p&gt;4、传统CNN与NFS-CNN、Relation-CNN与Var-CNN的不同点和相同点？&lt;/p&gt;
-&lt;p&gt;5、在注意力块中的Excitation 操作具体如何实现的？看不懂！！！特别使5.4.2部分&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5、在注意力块中的Excitation 操作具体如何实现的？看不懂！！！特别使5.4.2部分&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6、什么是瓶颈神经网络？&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
         
