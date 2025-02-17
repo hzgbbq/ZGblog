@@ -21,10 +21,10 @@
 &lt;li&gt;DOI 链接: 10.1016/j.eswa.2024.123236&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;1豆包ai脑图&#34;&gt;1、豆包AI脑图
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image.png&#34;
 	width=&#34;1674&#34;
 	height=&#34;1270&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image_hu15387830550660461411.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image_hu3939630263067712045.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image_hu_e552f9815804e631.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/exported_image_hu_5df8c672bad21162.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;exported_image&#34;
@@ -46,10 +46,10 @@
 &lt;p&gt;另一方面，构建 NFS - CNN 框架，对 ResNet18 进行三项优化（入口块、下采样块和残差块）以减少信息损失，并设计特征增强和特征注意力块，引入特征注意力机制衡量不同通道数据对准确率的贡献&lt;/p&gt;
 &lt;h2 id=&#34;3威胁模型&#34;&gt;3、威胁模型
 &lt;/h2&gt;&lt;p&gt;该论文中使用的典型威胁模型，如图 1 所示，包括五个实体：用户（受害者）、攻击者（敌手）、Tor 网络、网页和加密流量&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1.png&#34;
 	width=&#34;571&#34;
 	height=&#34;295&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu5940960998609241851.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu5707547576647282864.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu_db8ffceea11f4af6.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig1_hu_ec4625700106f27b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig1&#34;
@@ -81,10 +81,10 @@
 &lt;h2 id=&#34;5从加密流量中提取关系特征&#34;&gt;5、从加密流量中提取关系特征
 &lt;/h2&gt;&lt;h3 id=&#34;1为什么需要额外提取关系特征的原因&#34;&gt;1、为什么需要额外提取关系特征的原因：
 &lt;/h3&gt;&lt;p&gt;如图fig2&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2.png&#34;
 	width=&#34;777&#34;
 	height=&#34;351&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu2813943012835397061.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu12288564781936051442.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu_edcdc632bacece78.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig2_hu_2b5202b4893c1632.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig2&#34;
@@ -116,10 +116,10 @@
 &lt;/h3&gt;&lt;p&gt;1、&lt;strong&gt;构建流量实例图&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;图为&lt;strong&gt;无向无权图&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;从fig3变到fig4；fig4中&lt;strong&gt;黑线&lt;/strong&gt;表示突发中的数据包内部链接；&lt;strong&gt;红线&lt;/strong&gt;表示突发间的第一个包互相连以及最后一个包互相连；绿线则数据包的自连接&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3.png&#34;
 	width=&#34;757&#34;
 	height=&#34;198&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu1485318370279433016.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu15461154681659580828.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu_9b7912b077b185a5.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig3_hu_c15a05c4b2d4810d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig3&#34;
@@ -132,10 +132,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;2、&lt;strong&gt;生成邻接矩阵&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;fig4中有相连的节点，则被认为它们之间存在某种关系，则对应表值为1，反之则值为0.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4.png&#34;
 	width=&#34;540&#34;
 	height=&#34;406&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu11537846196686310287.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu15117198678543604207.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu_a073192a479a1ebe.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig4_hu_5eda111a88654ef5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig4&#34;
@@ -148,10 +148,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;3、&lt;strong&gt;构建关系向量&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;为了将关系特征输入到WF攻击模型中，需要将相邻矩阵转换为&lt;strong&gt;行一阶&lt;/strong&gt;向量。如图fig5&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5.png&#34;
 	width=&#34;1223&#34;
 	height=&#34;435&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu17161345235073449798.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu2178656677299009445.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu_10a280734754d1df.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig5_hu_3cd99d44f3b3cc19.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig5&#34;
@@ -165,10 +165,10 @@
 &lt;p&gt;如果输入向量的要求长度&lt;strong&gt;小于&lt;/strong&gt;矩阵中总值的数量，则丢弃其余值&lt;/p&gt;
 &lt;p&gt;4、&lt;strong&gt;关系特征的优势&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如图fig6,纠正能力强&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6.png&#34;
 	width=&#34;763&#34;
 	height=&#34;408&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu17640730503361684065.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu1503529561037187103.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu_dd0b604fa0454260.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig6_hu_15e2015f2f3b6a9a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig6&#34;
@@ -191,10 +191,10 @@
 &lt;p&gt;feature-attention：重新定义来自不同通道的数据对结果的贡献&lt;/p&gt;
 &lt;p&gt;classification：对FA(feature-attention)的输出进行处理，得到预测结果&lt;/p&gt;
 &lt;p&gt;四个块的关系，如fig7所示，NResNet18和feature-enhancing分别对两种向量进行处理，再输出到feature-attention处理，最后输出到classification处理。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7.png&#34;
 	width=&#34;1166&#34;
 	height=&#34;420&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu3855186957887639274.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu18234237934442933883.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu_24b0cc1abed60929.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig7_hu_34420b3113867afd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig7&#34;
@@ -208,10 +208,10 @@
 &lt;h3 id=&#34;2nresnet18&#34;&gt;2、NResNet18：
 &lt;/h3&gt;&lt;p&gt;NResNet18是作者对传统CV中的ResNet18进行优化修改后得出来得层&lt;/p&gt;
 &lt;p&gt;ResNet18得结构图fig8&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8.png&#34;
 	width=&#34;718&#34;
 	height=&#34;1320&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu5514098585309022906.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu6450709901414493825.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu_e30559a43b2bf793.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig8_hu_cd1a4b080a708dd2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;fig8&#34;
@@ -232,10 +232,10 @@
 &lt;li&gt;计算输出大小的关键在于确定卷积核可以在输入向量上滑动的次数。在考虑填充的情况下，输入向量的实际可处理长度变为L+2p（在两端添加填充）。&lt;/li&gt;
 &lt;li&gt;那么，卷积核可以滑动的次数可以通过以下公式计算：n = (L+2p - k)/s + 1。这个公式的含义是，先计算在考虑填充后的输入向量长度上，卷积核能够完整覆盖的次数(L+2p - k)/s，然后再加上起始位置的一次，得到总的滑动次数，也就是输出的大小。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9.png&#34;
 	width=&#34;728&#34;
 	height=&#34;251&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu8379557499902274869.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu2540307002943460067.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu_18a65a04fc8415a8.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig9_hu_7d3b125cddb7f507.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;优化入口块实例图&#34;
@@ -248,10 +248,10 @@
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;优化点二优化下采样块&#34;&gt;优化点二：优化下采样块
 &lt;/h4&gt;&lt;p&gt;优化措施：采用在downsamping 层之前多加一个 max - pooling 层并调整参数&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10.png&#34;
 	width=&#34;777&#34;
 	height=&#34;182&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu18340547955960221047.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu14724755902020920486.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu_7acdf96c15759121.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig10_hu_f1ce04fc17aa9d1a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;优化下采样块实例图&#34;
@@ -270,10 +270,10 @@
 &lt;/h4&gt;&lt;p&gt;优化措施：引入分组卷积（grouped convolution）技术，在保持或提升准确性的同时降低复杂度&lt;/p&gt;
 &lt;h5 id=&#34;分组卷积原理引入&#34;&gt;&lt;strong&gt;分组卷积原理引入&lt;/strong&gt;
 &lt;/h5&gt;&lt;p&gt;&lt;strong&gt;分组概念阐述&lt;/strong&gt;：核心思想是将输入通道划分为若干个组（在本研究中，超参数，即将输入通道分为两组）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11.png&#34;
 	width=&#34;643&#34;
 	height=&#34;571&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu18063166816113825670.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu12219838324117035901.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu_200d2394db400eec.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig11_hu_df0b1daa315ea59c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;分组卷积示例图&#34;
@@ -294,10 +294,10 @@
 &lt;/h3&gt;&lt;p&gt;作用：处理统计向量，使该层的输出形状与NResNet18一致。&lt;/p&gt;
 &lt;p&gt;内容：分为四层，分别为：a convolutional layer；a global average pooling layer； a batch normalization layer；a relu layer。&lt;/p&gt;
 &lt;p&gt;a global average pooling layer为下一个块的SE机制做了Squeeze 操作（全局平均池化）操作。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12.png&#34;
 	width=&#34;557&#34;
 	height=&#34;482&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu2503211859119430687.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu10879580496876988358.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu_eecef2cc0e853804.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig12_hu_da44fde78c62ed87.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;功能增强块结构图&#34;
@@ -324,10 +324,10 @@
 &lt;p&gt;&lt;strong&gt;输出：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;预测向量&lt;/strong&gt;：分类模块的输出是一个&lt;strong&gt;预测向量&lt;/strong&gt;，其形状为batchsize x numclasses，其中&lt;strong&gt;batchsize&lt;/strong&gt;表示一次处理的样本数量，&lt;strong&gt;numclasses&lt;/strong&gt;表示数据集中网站类别的总数。预测向量中的每个元素代表相应样本属于某个类别的概率。例如，如果数据集中有 100 个不同的网站类别，那么预测向量中的每个元素就是一个样本属于这 100 个类别中某一个类别的概率值。&lt;/p&gt;
 &lt;h2 id=&#34;7relation-cnn&#34;&gt;7、Relation-CNN
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15.png&#34;
 	width=&#34;767&#34;
 	height=&#34;612&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu18278851457556217986.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu2971605434782844518.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu_b93d6cd86df3d525.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig15_hu_33d4c1ad4c3e0fb1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Relation-CNN的概述图&#34;
@@ -357,10 +357,10 @@
 &lt;/h2&gt;&lt;h3 id=&#34;1实验设置&#34;&gt;1、实验设置
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;数据集：&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;使用九个数据集，涵盖未防御和防御场景，如 Wang - CW、Wang - OW、Sirinam - CW1000、Sirinam - OW、WTF - PAD、W - T (Sim)、Overdorf - Onion 等。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2.png&#34;
 	width=&#34;882&#34;
 	height=&#34;346&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu9845434369357429874.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu15637512383577137306.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu_54d59ffd6fde180c.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table2_hu_63bf3a1aed2dd8d9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;数据集表&#34;
@@ -382,10 +382,10 @@
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;确定关系特征数量&lt;/strong&gt;：在 Sirinam - CW1000 数据集上测试不同数量关系特征对 Relation - CNN 准确率的影响，发现准确率随特征数量增加而上升，最终确定使用 5000 个关系特征。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16.png&#34;
 	width=&#34;802&#34;
 	height=&#34;492&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu7881136581628961093.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu8545935701196428886.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu_425829dc20048413.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig16_hu_baa6cc4d70dc5bf6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;确定关系特征数量实验表&#34;
@@ -402,10 +402,10 @@
 &lt;ul&gt;
 &lt;li&gt;进行两项比较评估，将关系特征分别与方向向量、时间戳向量组合输入分类器（Si - DF 和 NFS - CNN），结果表明关系特征能提高分类器准确率，且在样本量较少的数据集上提升更明显，证明关系特征提供了新的判别信息，且难以被 DNN 自动学习。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17.png&#34;
 	width=&#34;1561&#34;
 	height=&#34;462&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu8435012825564604064.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu10755733468314482155.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu_6bd46b100cdc8184.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig17_hu_e1a7a0de4b64ac7e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;使用关系特征效果对比图&#34;
@@ -420,10 +420,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;信息泄漏分析&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;利用 &lt;strong&gt;WeFDE 工具&lt;/strong&gt;进行信息泄漏分析，发现关系特征泄露大量信息且具有冗余性，但提供了独特信息，其独特信息未被现有特征包含，这解释了添加关系特征可提高模型准确率的原因。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18.png&#34;
 	width=&#34;736&#34;
 	height=&#34;601&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu1420561614844161724.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu16804593148831506176.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu_4962da819cf7a8ed.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig18_hu_73724a91be942e9e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;信息泄露对比图&#34;
@@ -435,10 +435,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;从图中可以看到的是大多数关系特征的信息泄漏都大于1位，该比率大于方向和时间戳特征。特别是对于时间戳特性，大多数特性泄漏的信息少于1位。此外，还可以观察到一个有趣的现象，**即连续关系特征，没有泄露信息。**从此现象可以得到关系特征具有冗余性。猜测若能解决该冗余性有可能使关系特征泄露出更多信息。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19.png&#34;
 	width=&#34;512&#34;
 	height=&#34;386&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu11195173585268532065.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu15328152222948872220.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu_9c97250ddbcd896.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig19_hu_14a6155343782a62.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;特征聚类分析图&#34;
@@ -457,10 +457,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;NFS - CNN 变体比较&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;比较不同输入向量的 NFS - CNN 变体准确率，结果表明添加更多向量输入通常能提高准确率，Relation - CNN 始终表现最佳，凸显其有效性。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3.png&#34;
 	width=&#34;751&#34;
 	height=&#34;293&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu15755755196803203219.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu9289803245886703551.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu_d7592fc097c0b7d0.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table3_hu_7529379368b54227.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;NFS-CNN变种表&#34;
@@ -471,10 +471,10 @@
 		data-flex-basis=&#34;615px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20.png&#34;
 	width=&#34;937&#34;
 	height=&#34;482&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu7488820030663437790.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu4228913723046837460.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu_902fcf9da704aa.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig20_hu_2bd25673583bc2f2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;变种CNN准确率对比表&#34;
@@ -489,10 +489,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;封闭世界评估（无防御数据集）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在无防御数据集上，Relation - CNN 准确率高于其他基线攻击，在样本量较少的数据集上优势更明显，如在 Sirinam - CW100 上比其他基线攻击高出一定比例，表明其数据高效且鲁棒。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4.png&#34;
 	width=&#34;757&#34;
 	height=&#34;218&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu13992356108907038791.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu1440845715198493758.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu_6e79d3685f57a041.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table4_hu_a816703a218c26c4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;无防御数据集的封闭世界评估&#34;
@@ -507,10 +507,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;封闭世界评估（有防御数据集）&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在有防御数据集（WTF - PAD 和 W - T (Sim)）上，Relation - CNN 在两种防御下均取得最佳准确率，超过最佳基线攻击一定比例，说明这两种防御对 Relation - CNN 无效。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5.png&#34;
 	width=&#34;762&#34;
 	height=&#34;175&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu15554464412533984524.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu7671392090692059898.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu_9abe59c3d90c3ffb.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table5_hu_a425e3b5457e8a8d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;防御数据集的封闭世界评估&#34;
@@ -527,10 +527,10 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;第一个实验：训练样本和测试样本固定，通过 P - R 曲线比较不同攻击在开放世界场景下的性能，Relation - CNN 召回率和精确率性能最佳。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22.png&#34;
 	width=&#34;551&#34;
 	height=&#34;335&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu2613830692216577254.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu11981801849057464706.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu_fdb6219529bf9231.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig22_hu_f1ba5dfa71ecac99.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;P - R 曲线比较图&#34;
@@ -544,10 +544,10 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;第二个实验：固定&lt;strong&gt;监测的&lt;/strong&gt;训练样本和测试样本，调整未监控训练样本数量的实验中，Relation - CNN 在 TPR、FPR 和 BDR 指标上始终表现最好，进一步证明其鲁棒性。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23.png&#34;
 	width=&#34;1151&#34;
 	height=&#34;416&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu14834844315954033250.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu9221660083192761233.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu_723d6a7c2e69dfc.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/fig23_hu_6ce9a5bd1a62e3f2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;第二个实验对比图&#34;
@@ -571,10 +571,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;比较实验&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;在无防御和有防御数据集上进行比较实验，Relation - CNN 在所有设置下均优于 Var - CNN，尤其在样本量较少的数据集和洋葱数据集上优势更明显，在有防御数据集上也表现出色，充分证明其优越性。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6.png&#34;
 	width=&#34;730&#34;
 	height=&#34;423&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu17889426026145356315.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu16939037205023428166.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu_8077876acef13c43.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BBrelation-cnn_enhancing_website_fingerprinting_attack_with_relation/Table6_hu_b2bfbb4dc2b43ac6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;准确率对比表&#34;
@@ -718,10 +718,10 @@
 &lt;ul&gt;
 &lt;li&gt;无论是加密还是解密场景，后门触发器作为攻击的标志，不应被人眼轻易识别。这种隐蔽性是后门攻击成功的关键因素。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1.png&#34;
 	width=&#34;1161&#34;
 	height=&#34;621&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1_hu16339273096448497106.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1_hu17097864761769626048.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1_hu_20a9a02463629aff.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image1_hu_272dfdc9655788f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;攻击流程图&#34;
@@ -764,10 +764,10 @@
 &lt;p&gt;**数据内容：**包含结核病表现得正常和异常胸部X光片以及相应得放射科医生读数。&lt;/p&gt;
 &lt;p&gt;**数据集分类：**90%数据集用作训练数据集，10%得数据集用作验证数据集。&lt;/p&gt;
 &lt;h3 id=&#34;二实验设计图&#34;&gt;二、实验设计图
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2.png&#34;
 	width=&#34;1307&#34;
 	height=&#34;765&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu1084884326160821466.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu18039832672089918762.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu_10bbd2eca88d3b8c.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/image2_hu_69a8624780a19936.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;实验设计表&#34;
@@ -778,10 +778,10 @@
 		data-flex-basis=&#34;410px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8.png&#34;
 	width=&#34;549&#34;
 	height=&#34;255&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu4231900841002222132.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu5572012726066660360.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu_3118ee1515665e43.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/DeepEDN%E7%BB%93%E6%9E%84%E8%A1%A8_hu_8fe050423c24f468.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;DeepEDN网络结构表&#34;
@@ -812,10 +812,10 @@
 &lt;p&gt;&lt;strong&gt;对于加密网络&lt;/strong&gt;，当SSIM大于0.7且PSNR大于20时，被视为加密失败。&lt;strong&gt;对于解密网络&lt;/strong&gt;，当SSIM小于0.4且PSNR小于10时，解密被视为失败，从而确定攻击成功 .&lt;/p&gt;
 &lt;h4 id=&#34;实验对比图&#34;&gt;实验对比图
 &lt;/h4&gt;&lt;p&gt;实验效果图如下：左边为攻击加密网络，右边为攻击解密网络&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE.png&#34;
 	width=&#34;1141&#34;
 	height=&#34;446&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu12342985927777899549.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu15002874975933117611.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu_c326c7f1c7fbfd32.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E6%95%88%E6%9E%9C%E5%9B%BE_hu_f959d472571b89e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;实验效果图&#34;
@@ -827,10 +827,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;两种攻击的数据结果&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
 	width=&#34;741&#34;
 	height=&#34;160&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu11210952610613553471.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu6305947056559327735.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu_990f29fe8ec496d8.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu_4314634a89c8de4a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;攻击加密网络数据&#34;
@@ -841,10 +841,10 @@
 		data-flex-basis=&#34;1111px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE.png&#34;
 	width=&#34;754&#34;
 	height=&#34;159&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu7475497346202013158.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu850458922700618228.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu_a82fa2095ef8ac35.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E6%94%BB%E5%87%BB%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE_hu_ce1ed50e57e34a9b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;攻击解密网络数据&#34;
@@ -856,10 +856,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;后门攻击方法评估&#34;&gt;后门攻击方法评估
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE.png&#34;
 	width=&#34;492&#34;
 	height=&#34;435&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE_hu13716504391152201773.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE_hu6342929739535579558.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE_hu_be9b742036f80730.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E5%9B%BE_hu_ecd50c42d8a77ea6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;不同后门触发器嵌入效果&#34;
@@ -870,10 +870,10 @@
 		data-flex-basis=&#34;271px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE.png&#34;
 	width=&#34;437&#34;
 	height=&#34;227&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE_hu6556215783880243502.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE_hu2313103792206623810.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE_hu_efb663a91b185d4b.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E4%B8%8D%E5%90%8C%E6%94%BB%E5%87%BB%E6%96%B9%E6%B3%95%E6%95%88%E6%9E%9C%E6%95%B0%E6%8D%AE%E5%9B%BE_hu_b5893824183e0ad4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;上述方法的数据对比&#34;
@@ -886,10 +886,10 @@
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;攻击加密网络的评估&#34;&gt;攻击加密网络的评估
 &lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;后门加密网络参数α&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE.png&#34;
 	width=&#34;437&#34;
 	height=&#34;97&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE_hu3886081386268776727.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE_hu14531672416335610881.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE_hu_bd411716aa7db6fb.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%CE%B1%E5%AF%B9%E6%94%BB%E5%87%BB%E5%8A%A0%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%BD%B1%E5%93%8D%E6%95%B0%E6%8D%AE_hu_d9839bf64f977222.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;α参数对攻击的影响&#34;
@@ -904,10 +904,10 @@
 &lt;p&gt;​	另外，除了通过设置参数α来训练后门鉴别器和原始鉴别器之外，另一种方法是通过&lt;strong&gt;交叉训练&lt;/strong&gt;的方式来训练后门和原始鉴别器。这意味着训练过程将采用本次普通鉴别器来训练后门加密网络，并且下次采用后门判别器，以替代方式进行训练。通过另一种方式训练后门加密网络，对带有触发器标记的图像进行加密，平均SSIM和PSNR分别为&lt;strong&gt;0.74和22.09&lt;/strong&gt;，均低于使用参数α为0.5训练后门加密网络。可以说，与其他训练方法相 比，所提出的训练方法（使用α为0.5来训练后门鉴别器）可以获得更好的攻击性能。&lt;/p&gt;
 &lt;p&gt;2、&lt;strong&gt;验证加入了后门的密文图像是否还能保持原有的加密安全性能&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;通过直方图分析和熵分析两种方式进行分析&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5.png&#34;
 	width=&#34;555&#34;
 	height=&#34;386&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5_hu7539122346257892592.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5_hu13280227250641847856.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5_hu_fc3ed5a569e765a2.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E7%9B%B4%E6%96%B9%E5%9B%BE%E4%B8%8E%E7%86%B5_hu_b12fc7957034fe35.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;上部为直方图，下部为熵值&#34;
@@ -924,10 +924,10 @@
 &lt;p&gt;图像信息熵是图像灰度分布的统计特征。理想情况下，加密图像应与随机噪声相似，灰度分布均匀，理想值应为8。&lt;/p&gt;
 &lt;h4 id=&#34;攻击解密网络的评估&#34;&gt;攻击解密网络的评估
 &lt;/h4&gt;&lt;p&gt;1、&lt;strong&gt;信道替换比例η对解密网络的分析&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C.png&#34;
 	width=&#34;515&#34;
 	height=&#34;359&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C_hu1313385814120532969.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C_hu7128433153808684517.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C_hu_fca85214cb28310e.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%AD%90%E7%BD%91%E6%9B%BF%E6%8D%A2%E6%95%88%E6%9E%9C_hu_51b6abb585fb11f0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;信道替换&#34;
@@ -940,10 +940,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;本实验采用&lt;strong&gt;第一层通道数&lt;/strong&gt;作为子网替换的参数，并采用SSIM值作为评价指标来表征实验结 果。第一层共有32个通道，可用于替换的子网通道数设置 为1～8。从图9可以看出，随着待替换通道的增量，激活状 态下的SSIM值，代表后门解密网络解密出的带有后门触发 的密文图像，逐渐减小。这意味着攻击解密网络取得了巨 大成功（密文图像无法被正确解密）。非活动状态下的SSIM值，代表正确解密的无后门触发的密文图像，略有下降，但解密性能基本保持不变。当替换通道数达到4个时， 后门解密网络可以平衡活动状态和非活动状态之间的解密 性能。更换超过4层后，主动攻击的SSIM值仍在逐渐下降，这意味着攻击解密网络可以取得更好的攻击性能。然 而，非主动攻击的解密性能也大幅下降，这表明通过替换4 层以上，正确的解密过程仍然被破坏。因此，如果采用 12.5%（共4层，共32层）层数作为第一层的通道替换比例，则后门解密网络在兼顾攻击和解密的情况下可以达到 最佳性能。&lt;/p&gt;
 &lt;p&gt;2、&lt;strong&gt;关于解密网络的剪枝影响分析&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94.png&#34;
 	width=&#34;624&#34;
 	height=&#34;436&#34;
-	srcset=&#34;https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94_hu4314273637427743438.png 480w, https://hzgbbq.github.io/ZGblog/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94_hu5598149438408528442.png 1024w&#34;
+	srcset=&#34;https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94_hu_d41c47764af57336.png 480w, https://hzgbbq.github.io/ZGblog/p/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F%E5%8A%A0%E8%A7%A3%E5%AF%86%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%8E%E9%97%A8%E6%94%BB%E5%87%BB/Pic/%E5%89%AA%E6%9E%9D%E6%95%88%E6%9E%9C%E5%AF%B9%E6%AF%94_hu_d6cf56d5d40716de.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;剪枝效果对比&#34;
@@ -994,13 +994,11 @@
 &lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
-— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+— &lt;cite&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;tables&#34;&gt;Tables
 &lt;/h2&gt;&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
 &lt;table&gt;
@@ -1200,6 +1198,19 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://hzgbbq.github.io/ZGblog/p/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hzgbbq.github.io/ZGblog/p/</guid>
+        <description>&lt;h1 id=&#34;2025年目标规划&#34;&gt;2025年目标规划
+&lt;/h1&gt;&lt;p&gt;1、&lt;strong&gt;通过英语四级和六级&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2、&lt;strong&gt;准备下半年的教师资格证考核&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3、坚持一周3练&lt;/p&gt;
+&lt;p&gt;4、论文有明显进展&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>关于</title>
